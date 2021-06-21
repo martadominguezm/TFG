@@ -1,0 +1,215 @@
+Breast Cancer Wisconsin (Diagnostic) Data Set eSCALONATED 1
+
+Benign: 62.81%  of the dataset
+Malignant: 37.19%  of the dataset
+
+radius_mean:
+			Benign					Malignant
+min:		0.0					0.188
+max:		0.467					0.958
+mean:		0.238					0.457
+median:		0.24					0.433
+
+texture_mean:
+			Benign					Malignant
+min:		0.0					0.023
+max:		0.815					0.603
+mean:		0.253					0.379
+median:		0.247					0.394
+
+perimeter_mean:
+			Benign					Malignant
+min:		0.0					0.194
+max:		0.446					0.956
+mean:		0.23					0.457
+median:		0.235					0.43
+
+area_mean:
+			Benign					Malignant
+min:		0.0					0.097
+max:		0.312					0.894
+mean:		0.131					0.315
+median:		0.13					0.282
+
+smoothness_mean:
+			Benign					Malignant
+min:		0.089					0.19
+max:		0.69					0.831
+mean:		0.363					0.464
+median:		0.369					0.463
+
+compactness_mean:
+			Benign					Malignant
+min:		0.0					0.098
+max:		0.625					1.0
+mean:		0.178					0.394
+median:		0.162					0.353
+
+concavity_mean:
+			Benign					Malignant
+min:		0.0					0.056
+max:		0.963					1.0
+mean:		0.109					0.361
+median:		0.082					0.329
+
+concave points_mean:
+			Benign					Malignant
+min:		0.0					0.101
+max:		0.424					1.0
+mean:		0.125					0.419
+median:		0.113					0.4
+
+symmetry_mean:
+			Benign					Malignant
+min:		0.054					0.225
+max:		0.85					1.0
+mean:		0.349					0.46
+median:		0.34					0.438
+
+fractal_dimension_mean:
+			Benign					Malignant
+min:		0.05					0.006
+max:		0.906					1.0
+mean:		0.271					0.294
+median:		0.235					0.265
+
+radius_se:
+			Benign					Malignant
+min:		0.001					0.03
+max:		0.279					0.506
+mean:		0.065					0.164
+median:		0.055					0.141
+
+texture_se:
+			Benign					Malignant
+min:		0.0					0.026
+max:		1.0					0.709
+mean:		0.19					0.184
+median:		0.156					0.158
+
+perimeter_se:
+			Benign					Malignant
+min:		0.0					0.027
+max:		0.205					0.486
+mean:		0.058					0.154
+median:		0.051					0.13
+
+area_se:
+			Benign					Malignant
+min:		0.003					0.014
+max:		0.131					0.422
+mean:		0.027					0.105
+median:		0.024					0.088
+
+smoothness_se:
+			Benign					Malignant
+min:		0.0					0.039
+max:		0.647					0.735
+mean:		0.19					0.167
+median:		0.164					0.151
+
+compactness_se:
+			Benign					Malignant
+min:		0.0					0.046
+max:		0.782					1.0
+mean:		0.145					0.235
+median:		0.096					0.201
+
+concavity_se:
+			Benign					Malignant
+min:		0.0					0.028
+max:		1.0					0.323
+mean:		0.069					0.103
+median:		0.045					0.089
+
+concave points_se:
+			Benign					Malignant
+min:		0.0					0.114
+max:		1.0					0.775
+mean:		0.19					0.275
+median:		0.168					0.252
+
+symmetry_se:
+			Benign					Malignant
+min:		0.023					0.0
+max:		0.754					1.0
+mean:		0.196					0.191
+median:		0.17					0.14
+
+fractal_dimension_se:
+			Benign					Malignant
+min:		0.0					0.007
+max:		1.0					0.413
+mean:		0.099					0.114
+median:		0.066					0.098
+
+radius_worst:
+			Benign					Malignant
+min:		0.0					0.175
+max:		0.366					0.896
+mean:		0.187					0.438
+median:		0.191					0.43
+
+texture_worst:
+			Benign					Malignant
+min:		0.0					0.124
+max:		0.793					0.764
+mean:		0.279					0.446
+median:		0.269					0.445
+
+perimeter_worst:
+			Benign					Malignant
+min:		0.0					0.183
+max:		0.348					0.849
+mean:		0.175					0.423
+median:		0.175					0.394
+
+area_worst:
+			Benign					Malignant
+min:		0.0					0.081
+max:		0.208					0.745
+mean:		0.088					0.274
+median:		0.088					0.257
+
+smoothness_worst:
+			Benign					Malignant
+min:		0.0					0.113
+max:		0.674					0.915
+mean:		0.351					0.499
+median:		0.369					0.491
+
+compactness_worst:
+			Benign					Malignant
+min:		0.0					0.023
+max:		0.541					1.0
+mean:		0.14					0.357
+median:		0.13					0.333
+
+concavity_worst:
+			Benign					Malignant
+min:		0.0					0.019
+max:		1.0					0.883
+mean:		0.127					0.361
+median:		0.103					0.318
+
+concave points_worst:
+			Benign					Malignant
+min:		0.0					0.1
+max:		0.601					1.0
+mean:		0.244					0.619
+median:		0.238					0.61
+
+symmetry_worst:
+			Benign					Malignant
+min:		0.017					0.0
+max:		0.525					1.0
+mean:		0.225					0.363
+median:		0.222					0.326
+
+fractal_dimension_worst:
+			Benign					Malignant
+min:		0.013					0.0
+max:		0.614					1.0
+mean:		0.153					0.264
+median:		0.142					0.243
+

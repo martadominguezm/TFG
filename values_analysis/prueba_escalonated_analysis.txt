@@ -1,0 +1,61 @@
+Pima Indians Diabetes Database eSCALONATED 1
+
+Normal: 65.1%  of the dataset
+Diabets: 34.9%  of the dataset
+
+Pregnancies:
+			Normal					Diabets
+min:		0.0					0.0
+max:		0.765					1.0
+mean:		0.197					0.293
+median:		0.176					0.294
+
+Glucose:
+			Normal					Diabets
+min:		0.0					0.0
+max:		0.99					0.99
+mean:		0.553					0.695
+median:		0.538					0.686
+
+BloodPressure:
+			Normal					Diabets
+min:		0.0					0.0
+max:		1.0					0.902
+mean:		0.559					0.575
+median:		0.574					0.59
+
+SkinThickness:
+			Normal					Diabets
+min:		0.0					0.0
+max:		0.606					0.566
+mean:		0.199					0.211
+median:		0.212					0.253
+
+Insulin:
+			Normal					Diabets
+min:		0.0					0.0
+max:		0.879					1.0
+mean:		0.083					0.115
+median:		0.046					0.0
+
+BMI:
+			Normal					Diabets
+min:		0.0					0.0
+max:		0.779					1.0
+mean:		0.448					0.526
+median:		0.446					0.507
+
+DiabetesPedigreeFunction:
+			Normal					Diabets
+min:		0.0					0.021
+max:		0.961					0.944
+mean:		0.152					0.212
+median:		0.106					0.18
+
+Age:
+			Normal					Diabets
+min:		0.0					0.0
+max:		0.8					0.75
+mean:		0.167					0.259
+median:		0.1					0.208
+
