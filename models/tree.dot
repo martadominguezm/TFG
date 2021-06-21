@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="Glucose <= 0.685\ngini = 0.466\nsamples = 537\nvalue = [339, 198]\nclass = 0", fillcolor="#f4cbad"] ;
+1 [label="Glucose <= 0.603\ngini = 0.254\nsamples = 361\nvalue = [307, 54]\nclass = 0", fillcolor="#ea975c"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="BMI <= 0.544\ngini = 0.148\nsamples = 273\nvalue = [251, 22]\nclass = 0", fillcolor="#e78c4a"] ;
+1 -> 2 ;
+3 [label="gini = 0.081\nsamples = 238\nvalue = [228, 10]\nclass = 0", fillcolor="#e68742"] ;
+2 -> 3 ;
+4 [label="gini = 0.451\nsamples = 35\nvalue = [23, 12]\nclass = 0", fillcolor="#f3c3a0"] ;
+2 -> 4 ;
+5 [label="BloodPressure <= 0.64\ngini = 0.463\nsamples = 88\nvalue = [56, 32]\nclass = 0", fillcolor="#f4c9aa"] ;
+1 -> 5 ;
+6 [label="gini = 0.5\nsamples = 49\nvalue = [24, 25]\nclass = 1", fillcolor="#f7fbfe"] ;
+5 -> 6 ;
+7 [label="gini = 0.295\nsamples = 39\nvalue = [32, 7]\nclass = 0", fillcolor="#eb9d64"] ;
+5 -> 7 ;
+8 [label="Glucose <= 0.757\ngini = 0.298\nsamples = 176\nvalue = [32, 144]\nclass = 1", fillcolor="#65b3eb"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Pregnancies <= 0.063\ngini = 0.48\nsamples = 65\nvalue = [26, 39]\nclass = 1", fillcolor="#bddef6"] ;
+8 -> 9 ;
+10 [label="gini = 0.346\nsamples = 18\nvalue = [14, 4]\nclass = 0", fillcolor="#eca572"] ;
+9 -> 10 ;
+11 [label="gini = 0.38\nsamples = 47\nvalue = [12, 35]\nclass = 1", fillcolor="#7dbfee"] ;
+9 -> 11 ;
+12 [label="Pregnancies <= 0.014\ngini = 0.102\nsamples = 111\nvalue = [6, 105]\nclass = 1", fillcolor="#44a3e6"] ;
+8 -> 12 ;
+13 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0]\nclass = 0", fillcolor="#e58139"] ;
+12 -> 13 ;
+14 [label="gini = 0.071\nsamples = 109\nvalue = [4, 105]\nclass = 1", fillcolor="#41a1e6"] ;
+12 -> 14 ;
+}
